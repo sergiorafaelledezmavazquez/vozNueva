@@ -22,7 +22,7 @@
         var txt = "";
         txt = x.elements[0].value
         u.text = txt;
-        u.lang = 'en-US';
+        u.lang = 'es-MX';
         speechSynthesis.speak(u);      
         navigator.notification.vibrate(2000);
         document.getElementById("frm1").reset();
@@ -42,7 +42,7 @@
         <form id="frm1">
           What should I say? <input type="text" name="fname" value="Hello world"><br>
         </form> 
-		<button onclick="playVibrate();" class="ui-btn ui-btn-inline">Make me talk!</button>
+		<button onclick="playVibrate();" class="ui-btn ui-btn-inline">Que quieres que diga!</button>
         <p id="appInfo"</p>
       </div> 
       <div data-role="footer" data-position="fixed">
